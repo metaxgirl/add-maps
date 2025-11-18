@@ -44,8 +44,8 @@ var simplemaps_countymap_mapdata={
     navigation_color: "#f7f7f7",
     navigation_border_color: "#636363",
     initial_back: "no",
-    initial_zoom: "-1",
-    initial_zoom_solo: "no",
+    initial_zoom: "0",
+    initial_zoom_solo: "yes",
     region_opacity: 1,
     region_hover_opacity: 0.6,
     zoom_out_incrementally: "yes",
@@ -2787,52 +2787,62 @@ var simplemaps_countymap_mapdata={
     },
     "25003": {
       name: "Berkshire",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Berkshire County, MA"
     },
     "25005": {
       name: "Bristol",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Bristol County, MA"
     },
     "25007": {
       name: "Dukes",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Dukes County, MA"
     },
     "25009": {
       name: "Essex"
     },
     "25011": {
       name: "Franklin",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Franklin County, MA"
     },
     "25013": {
       name: "Hampden",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Hampden County, MA"
     },
     "25015": {
       name: "Hampshire",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Hampshire County, MA"
     },
     "25017": {
       name: "Middlesex",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Middlesex County, MA"
     },
     "25019": {
       name: "Nantucket"
     },
     "25021": {
       name: "Norfolk",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Norfolk County, MA"
     },
     "25023": {
       name: "Plymouth",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Plymouth County, MA"
     },
     "25025": {
       name: "Suffolk"
     },
     "25027": {
       name: "Worcester",
-      url: "/massachusetts"
+      url: "/massachusetts",
+      description: "Service Area - Worcester County, MA"
     },
     "26001": {
       name: "Alcona"
@@ -9555,6 +9565,16 @@ var simplemaps_countymap_mapdata={
     }
   },
   regions: {
+    "0": {
+      states: [
+        "CT",
+        "NY",
+        "VT",
+        "MA",
+        "RI"
+      ],
+      name: "Northeast"
+    },
     ID: {
       name: "Idaho",
       states: [
