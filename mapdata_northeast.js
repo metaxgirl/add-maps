@@ -61,7 +61,7 @@ var simplemaps_countymap_mapdata={
     popup_nocss: "no",
     
     //Advanced settings
-    div: "map",
+    div: "map-ne",
     auto_load: "yes",
     rotate: "0",
     url_new_tab: "no",
@@ -81,8 +81,7 @@ var simplemaps_countymap_mapdata={
     //Added by Lisa
     initial_region: "0",
     initial_region_only: "yes",
-    region_zoom_percentage: ".9",
-    div: "map-ne"
+    region_zoom_percentage: ".9"
   },
   state_specific: {
     "10001": {
