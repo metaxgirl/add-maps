@@ -40,27 +40,13 @@ var simplemaps_countymap_mapdata = {
     // Zoom behavior
     zoom: "yes",
     manual_zoom: "yes",
-    initial_zoom: "-1",
-    initial_region: "0",
-    initial_region_only: "yes",
-    region_zoom_percentage: "1.0"
-  },
-
-  // *** DEFINE NORTHEAST REGION ***
-  regions: {
-    "0": {
-      name: "Northeast",
-      states: ["CT", "NY", "VT", "MA", "RI"]
-    }
+    initial_zoom: "-1"
   },
 
   // *** SERVICE COUNTIES ONLY (TRIMMED) ***
   state_specific: {
 
-    /* ================================
-       CONNECTICUT (CT) – ALL COUNTIES
-       ================================ */
-
+    /* CONNECTICUT (CT) – ALL COUNTIES */
     "09001": { name: "Fairfield County, CT",  color: "#3b6ea5", url: "/connecticut" },
     "09003": { name: "Hartford County, CT",   color: "#3b6ea5", url: "/connecticut" },
     "09005": { name: "Litchfield County, CT", color: "#3b6ea5", url: "/connecticut" },
@@ -70,45 +56,25 @@ var simplemaps_countymap_mapdata = {
     "09013": { name: "Tolland County, CT",    color: "#3b6ea5", url: "/connecticut" },
     "09015": { name: "Windham County, CT",    color: "#3b6ea5", url: "/connecticut" },
 
-
-    /* ================================
-       RHODE ISLAND (RI) – ALL COUNTIES
-       ================================ */
-
+    /* RHODE ISLAND (RI) – ALL COUNTIES */
     "44001": { name: "Bristol County, RI",    color: "#3b6ea5", url: "/rhode-island" },
     "44003": { name: "Kent County, RI",       color: "#3b6ea5", url: "/rhode-island" },
     "44005": { name: "Newport County, RI",    color: "#3b6ea5", url: "/rhode-island" },
     "44007": { name: "Providence County, RI", color: "#3b6ea5", url: "/rhode-island" },
     "44009": { name: "Washington County, RI", color: "#3b6ea5", url: "/rhode-island" },
 
-
-    /* ================================
-       VERMONT (VT) – SOUTHERN TWO COUNTIES
-       ================================ */
-
+    /* VERMONT (VT) – SOUTHERN TWO COUNTIES */
     "50003": { name: "Bennington County, VT", color: "#3b6ea5", url: "/vermont" },
     "50025": { name: "Windham County, VT",    color: "#3b6ea5", url: "/vermont" },
 
-
-    /* ================================
-       MASSACHUSETTS (MA) – WESTERN PORTION
-       Berkshire, Franklin, Hampshire, Hampden, Worcester
-       ================================ */
-
+    /* MASSACHUSETTS (MA) – WESTERN PORTION */
     "25003": { name: "Berkshire County, MA",  color: "#3b6ea5", url: "/massachusetts" },
     "25011": { name: "Franklin County, MA",   color: "#3b6ea5", url: "/massachusetts" },
     "25013": { name: "Hampden County, MA",    color: "#3b6ea5", url: "/massachusetts" },
     "25015": { name: "Hampshire County, MA",  color: "#3b6ea5", url: "/massachusetts" },
     "25027": { name: "Worcester County, MA",  color: "#3b6ea5", url: "/massachusetts" },
 
-
-    /* ================================
-       NEW YORK (NY) – EASTERN, UP TO ALBANY
-       Albany, Rensselaer, Columbia, Greene,
-       Ulster, Dutchess, Putnam, Westchester,
-       Rockland, Orange
-       ================================ */
-
+    /* NEW YORK (NY) – EASTERN, UP TO ALBANY */
     "36001": { name: "Albany County, NY",     color: "#3b6ea5", url: "/new-york" },
     "36021": { name: "Columbia County, NY",   color: "#3b6ea5", url: "/new-york" },
     "36027": { name: "Dutchess County, NY",   color: "#3b6ea5", url: "/new-york" },
