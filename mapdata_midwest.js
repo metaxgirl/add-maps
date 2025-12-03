@@ -35,7 +35,7 @@ var simplemaps_countymap_mapdata={
 
     //Advanced
     div: "map-midwest",
-    auto_load: "yes",
+    auto_load: "no",
 
     //Zoom behavior
     zoom: "yes",
